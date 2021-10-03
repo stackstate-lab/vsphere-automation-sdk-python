@@ -3,3 +3,8 @@ __pycache__/
 .DS_Store
 .idea/*
 .gradle/*
+venv
+dist
+vSphere_Automation_SDK.egg-info
+.python-version
+build
