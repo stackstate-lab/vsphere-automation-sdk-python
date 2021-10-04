@@ -15,23 +15,14 @@ setup(name='vsphere-automation-sdk',
       install_requires=[
           'lxml >= 4.3.0',
           'pyVmomi >= 6.7',
-          'vapi-runtime @ file://localhost/{}/lib/vapi-runtime/vapi_runtime-2.25.0-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'vapi-client-bindings @ file://localhost/{}/lib/vapi-client-bindings/vapi_client_bindings-3.6.0-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'vapi-common-client @ file://localhost/{}/lib/vapi-common-client/vapi_common_client-2.25.0-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'vmc-client-bindings @ file://localhost/{}/lib/vmc-client-bindings/vmc_client_bindings-1.52.0-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'nsx-python-sdk @ file://localhost/{}/lib/nsx-python-sdk/nsx_python_sdk-3.1.2.1.1-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'nsx-policy-python-sdk @ file://localhost/{}/lib/nsx-policy-python-sdk/nsx_policy_python_sdk-3.1.2.1.1-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'nsx-vmc-policy-python-sdk @ file://localhost/{}/lib/nsx-vmc-policy-python-sdk/nsx_vmc_policy_python_sdk-3.1.2.1.1-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'nsx-vmc-aws-integration-python-sdk @ file://localhost/{}/lib/nsx-vmc-aws-integration-python-sdk/nsx_vmc_aws_integration_python_sdk-3.1.2.1.1-py2.py3-none-any.whl'.format(
-              os.getcwd()),
-          'vmc-draas-client-bindings @ file://localhost/{}/lib/vmc-draas-client-bindings/vmc_draas_client_bindings-1.18.0-py2.py3-none-any.whl'.format(
-              os.getcwd()),
+          'vapi-runtime == 2.25.0',
+          'vapi-client-bindings == 3.6.0',
+          'vapi-common-client == 2.25.0',
+          'vmc-client-bindings == 1.52.0',
+          'nsx-python-sdk == 3.1.2.1.1',
+          'nsx-policy-python-sdk == 3.1.2.1.1',
+          'nsx-vmc-policy-python-sdk == 3.1.2.1.1',
+          'nsx-vmc-aws-integration-python-sdk == 3.1.2.1.1',
+          'vmc-draas-client-bindings == 1.18.0',
       ]
       )
